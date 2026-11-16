@@ -22,7 +22,7 @@
     <hr>
   </header>
 
-    <article>
+    <article id="#hsitoire">
       <h2>L'histoire des missions Apollo</h2>
       <p>Lancé par la <abbr title="National Aeronautics ans Space Administration">NASA</abbr> en 1961, au cœur de la guerre froide, le programme
          Apollo avait un objectif : envoyer des hommes sur la Lune et les ramener
@@ -40,7 +40,7 @@
       <small>Source : Archives gouvernementales</small>
     </article>
 
-    <section>
+    <section id="technologies">
       <h2>Archives multimédias</h2>
         <figure>
             <img src="../eploration_spatiale/images/astronaute.webp" alt="astronaute ">
@@ -65,7 +65,7 @@
         </audio>
     </section>
 
-    <section>
+    <section id="medias">
       <h2>Informations sur 3 fusées</h2>
       <table>
         <colgroup>
@@ -100,18 +100,56 @@
             <td>Environ 22 tonnes</td>
             <td>2010</td>
           </tr>
-        </tbody>  
-      
-
-        
+        </tbody>     
       </table>
     </section>
 
+    <section>
+      <h2>Foire aux questions</h2>
 
-
-    
+    <details>
+      <summary>Comment devient-on astronaute ?</summary>
+      <p>
+      Il faut d'abord obtenir un diplôme scientifique ou technique de haut
+      niveau (ingénierie, médecine, physique...), puis réussir une sélection
+      très exigeante organisée par une agence spatiale comme la NASA ou
+      l'ESA. Les candidats retenus suivent ensuite plusieurs années
+      d'entraînement : condition physique, plongée, pilotage, langues et
+      simulations de missions.
+      </p>
+    </details>
+    <figure>
+      <svg width="200" height="200" viewBox="0 0 200 200" role="img" aria-labelledby="titre-lune">
+        <title id="titre-lune">Dessin simplifié de la Lune</title>
+        <circle cx="100" cy="100" r="90" fill="#d1d5db" stroke="#9ca3af" stroke-width="3"/>
+        <circle cx="70" cy="75" r="15" fill="#9ca3af"/>
+        <circle cx="125" cy="115" r="22" fill="#9ca3af"/>
+        <circle cx="85" cy="140" r="10" fill="#9ca3af"/>
+      </svg>
+      <figcaption>La Lune et ses cratères</figcaption>
+    </figure>
+    </section>
+    <section id="systeme-solaire">
+      <h2>Le système solaire</h2>
+        <img src="../eploration_spatiale/images/systeme_solaire.webp"  alt="Schéma du système solaire avec la Terre et Mars" usemap="#carte-planetes">
+      <map name="carte-planetes">
+        <area shape="circle" coords="305,210,38"
+          href="https://fr.wikipedia.org/wiki/Terre"
+          alt="La Terre" target="_blank" rel="noopener">
+        <area shape="rect" coords="280,322,415,378"
+          href="https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)"
+          alt="Mars" target="_blank" rel="noopener">
+      </map>
+    </section>
+  <footer>
+    <address id="#contact">
+      <p>Le centre spatial <br> 123, rue de l'espace<br>00000 Univers</p>
+      <a href="tel:+33123456789">Téléphone : 01 23 45 67 89</a><br>
+      <a href="mailto:centrespa@tial.re">Contactez-nous par Mail</a>
+    </address>
+  </footer>
   </main>
-  
+
 </body>
 </html>
   
